@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+ <div class ="border-left">
+  <h3>My question is: <%= params[:question] %></h3>
+  <em>- You</em>
+</div>
+<div class="width alert alert-warning border-left">
+  <h3>My answer is: <%= @answer %></h3>
+  <em>- Your Coach</em>
+</div>
